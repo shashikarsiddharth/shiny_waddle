@@ -1,0 +1,8 @@
+{
+    "scripts": {
+      "update-template": "update-template https://github.com/shashikarsiddharth/service_template"
+    },
+    "dependencies": {
+      "update-template": "^1.3.1"
+    }
+}
