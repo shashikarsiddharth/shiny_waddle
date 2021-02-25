@@ -1,8 +1,16 @@
 {
-    "scripts": {
-      "update-template": "update-template https://github.com/shashikarsiddharth/service_template"
-    },
-    "dependencies": {
-      "update-template": "^1.3.1"
-    }
+  "name": "infra",
+  "version": "1.0.0",
+  "description": "Install serverless packages",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "serverless --host=ci --stage=${STAGE} deploy --alias provisioned"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "serverless": "^2.23.0",
+    "serverless-plugin-aws-alerts": "^1.6.1",
+    "update-template": "^1.3.1"
+  }
 }
