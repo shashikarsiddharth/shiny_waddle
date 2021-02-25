@@ -1,2 +1,2 @@
-# shiny-waddle
-Dummy service repository
+# shiny_waddle
+Sample service repository
