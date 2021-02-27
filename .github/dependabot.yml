@@ -1,7 +1,5 @@
-version: 2
-updates:
-- package-ecosystem: npm
-  directory: "/"
-  schedule:
-    interval: live
-  open-pull-requests-limit: 10
+version: 3
+update_configs:
+  - package_manager: "javascript"
+    directory: "/"
+    update_schedule: "live"
